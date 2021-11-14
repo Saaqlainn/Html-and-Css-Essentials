@@ -12,7 +12,7 @@ Frontend Mentor Challenges Help you To Improve Your Coding Skills By Building Re
 - [Navbar Menu](https://saaqlainn.github.io/Html-and-Css-Essentials/Navbar%20menu)
 - [Price Card](https://saaqlainn.github.io/Html-and-Css-Essentials/Price%20Card)
 - [Profile Card](https://saaqlainn.github.io/Html-and-Css-Essentials/Profile%20card)
-- [The Quote By Daniel Witley](https://saaqlainn.github.io/Html-and-Css-Essentials/Quote)
+- [The Quote By Denis Waitley](https://saaqlainn.github.io/Html-and-Css-Essentials/Quote)
 - [Sidebar Menu](https://saaqlainn.github.io/Html-and-Css-Essentials/Sidebar%20menu)
 - [FreeCodeCamp survey Form](https://saaqlainn.github.io/Html-and-Css-Essentials/Survey%20form)
 
