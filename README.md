@@ -1,6 +1,7 @@
 # Html and Css Basic Projects
 
-Hi!✋ This Are some Basic Html and Css Projects Solutions That I have practiced To Improve My Frontend Coding Skills.
+Hi!✋ This Are some Basic Html and Css Projects Solutions That I have practiced
+To Improve My Frontend Coding Skills.
 ## 🚀Live URLs
 
 - [Basic-website-structure](https://saaqlainn.github.io/Html-and-Css-Essentials/Basic%20Website%20structure)
