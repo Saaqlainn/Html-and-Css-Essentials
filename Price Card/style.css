@@ -1,0 +1,162 @@
+:root {
+    --primary-color:#C806B9;
+    --secondary-color:#360532;
+    --basic:#fff;
+    --main-bg:#E4E4E4 ;
+    --font-stack: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    padding: 1rem;
+}
+
+main {
+    /* border: 2px solid red; */
+}
+.card {
+    box-shadow: 0px 4px 24px -8px rgba(0,0,0,0.75);
+}
+
+/*  ==========
+    div first  
+    ===========*/
+.first-div {
+    background-color: var(--primary-color);
+    color: white;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.plan-balance {
+    /* border: 2px solid #fff; */
+    /* margin: 1rem; */
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+.dollar {
+    padding: 2rem;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.cad {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.plan-type {
+    display: block;
+    margin: 1rem;
+    padding-bottom: 2rem;
+    text-align: right;
+    font-family: var(--font-stack);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.second-div {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 0 2rem;
+    margin-top: -2rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.deposit {
+    /* display: block;
+    height: 2rem; */
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+.bottom-bar-1st {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.bottom-bar-2nd {
+    display:flex;
+    justify-content: space-evenly;
+}
+.bar {
+    height: 1.4rem;
+    width: 6.5rem;
+    text-align: center;
+    margin-bottom: .7rem;
+    margin-right: .7rem;
+    padding-top: .2rem;
+    font-size: .8rem;
+    font-weight: bold;
+    border-radius: 2px;
+    background-color: var(--basic);
+    color: var(--primary-color);
+}
+.bar:hover {
+    background-color: var(--primary-color);
+    color: var(--basic);
+}
+.center {
+    text-align: center;
+}
+
+.amount {
+    padding: 1rem 3rem;
+}
+label {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+input {
+    display: inline-block;
+    height: 2rem;
+    width: 9rem;
+    /* margin: 1rem; */
+    border-radius: 4px;
+}
+
+.third-div {
+    display: block;
+    color: var(--secondary-color);
+}
+.plan-title {
+    margin: .5rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.plan-cost {
+    display: block;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+
+button {
+    border: 3px solid var(--primary-color);
+    width: 100%;
+    padding: .6rem;
+    font-family: var(--font-stack);
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background-color:var(--basic);
+    color: var(--primary-color);
+}
+button:hover {
+    background-color: var(--secondary-color);
+    color: var(--basic);
+    cursor: pointer;
+}

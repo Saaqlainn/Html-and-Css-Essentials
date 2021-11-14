@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <form action="surveyform.php">
+
+            <h1 id="title">Survey Form</h1>
+            <div class="container">
+                <p id="discription">Let us know how we can improve FreeCodeCamp</p>
+                <div id="first-div">
+
+                    <div class="parent">
+                        <div class="left-child">
+                            <label for="name" id="name-label">Name:</label>
+                        </div>
+                        <div class="right-child">
+                            <input type="text" placeholder="Enter your name here" required>
+                        </div>
+                    </div>
+
+                    <div class="parent">
+                        <div class="left-child">
+                            <label for="name" id="Email-label">E-mail:</label>
+                        </div>
+                        <div class="right-child">
+                            <input type="text" placeholder="Enter your Email here" required>
+                        </div>
+                    </div>
+
+                    <div class="parent">
+                        <div class="left-child">
+                            <label for="name" id="Age-label">Age:</label>
+                        </div>
+                        <div class="right-child">
+                            <input type="number" name="Age" id="age" placeholder="age" min="1" max="120" required>               
+                        </div>
+                    </div>
+
+                </div>
+
+                
+                <div class="parent">
+                    <div class="left-child">
+                        <label for="Dropdown">Which option best describe your current role?</label>
+                    </div>
+                    <div class="right-child">                       
+                        <select id="Dropdown">
+                            <option disabled>Select an option</option>
+                            <option value="student" selected>student</option>
+                            <option value="full-time-job">Full time job</option>
+                            <option value="full-time-lerner">Full time learner</option>
+                            <option value="Prefer-not-to-say">Prefer not to say</option>
+                            <option value="Other">Others</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="parent">
+                    <div class="left-child">
+                        <label for="radio-buttons"> How likely is that you would recommend freeCodeCamp to a friend?</label>
+                    </div>
+                    <div class="right-child">
+
+                        <input type="radio"  id="radio-button" value="1">
+                        <label for="radio-button">Definitely</label>
+                        <input type="radio"  id="radio-button" value="2">
+                        <label for="radio-button">Maybe</label>
+                        <input type="radio"  id="radio-button" value="3">
+                        <label for="radio-button">Not Sure</label>
+                    </div>
+                </div>
+                
+                <div class="parent">
+                    <div class="left-child">
+                        <label for="Dropdown">What do you like most in FCC?</label>
+                    </div>
+                    <div class="right-child">
+                        <select id="Dropdown">
+                            <option value="select an option" disabled> select an option</option>
+                            <option value="challenges">Challenges</option>
+                            <option value="Projects">Projects</option>
+                            <option value="Community">Community</option>
+                            <option value="Open Source">Open Source</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="parent">
+                    <div class="left-child">
+                        <label for="checkboxes"> Things that should be improve in the future</label>
+                    </div>
+                    <div class="right-child">
+                        <input type="checkbox" name="" id="front-end-projects"> front-end-projects <br>
+                        <input type="checkbox" name="" id="Back-end-projects">  Back-end-projects <br>
+                        <input type="checkbox" name="" id="Data Visualization"> Data Visualization <br>
+                        <input type="checkbox" name="" id="Challenges">Challenges <br>
+                        <input type="checkbox" name="" id="Open Source Community">Open Source Community <br>
+                        <input type="checkbox" name="" id="City Meetups">City Meetups <br>
+                        <input type="checkbox" name="" id="Additional Courses"> Additional Courses<br>
+                    </div>                   
+                </div>
+
+                <div class="parent">
+                    <div class="left-child">
+                        <label for="suggestions">Any comments or suggestion?</label>
+                    </div>
+                    <div class="right-child">
+                        <textarea  id="textarea" rows="3" cols="25" placeholder=""></textarea>
+                    </div>
+                </div>
+
+                <div>
+                        <button id="submit-button">Submit</button>
+                </div>
+            </div>
+        </form>
+    </main>
+        
+</body>
+</html>
+    

@@ -1,0 +1,224 @@
+/* ------------------------css reset------------------ */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+   font-family: "Ubuntu", sans-serif;
+}
+.maincontainer {
+   /* border: 2px solid red; */
+
+   height: 700px;
+   width: auto;
+}
+
+/* --------------------------Wrapper-1------------------- */
+.wrapper {
+   /* border: 2px solid black; */
+   height: 487px;
+   width: 511px;
+   position: absolute;
+   margin: 112px 182px;
+   padding: 35px 35px;
+   border-radius: 8px;
+   background-color: #ffffff;
+   box-shadow: 0 0 10px;
+}
+.heading {
+   padding: 5px;
+   font-size: 36px;
+}
+/* ----------------------------------combinebox----------------------- */
+.combine-box {
+   /* border: 2px solid red; */
+   height: 40px;
+   width: auto;
+   margin: 10px 0px 10px 0px;
+   padding: 5px;
+}
+.name {
+   margin: 0 4px 4px 0;
+   padding: 0px;
+   display: inline-block;
+}
+.name input {
+   /* border-style: inset; */
+   height: 39px;
+   width: 200px;
+   padding: 1px 0px 3px 10px;
+   font-size: 15px;
+}
+/* -------------------------------Email--------------------------- */
+.email-1 {
+   display: inline-block;
+}
+.email-1 input {
+   height: 40px;
+   width: 200px;
+   padding: 1px 0px 3px 10px;
+   position: absolute;
+   margin: -25px 0 11px 14px;
+   font-size: 15px;
+}
+/* ----------------------------subjectbox-------------------- */
+.subject-box {
+   /* border: 2px solid red; */
+   margin: 10px 0px 10px 0px;
+   padding: 5px;
+}
+.subject {
+   display: inline-block;
+}
+.subject input {
+   height: 39px;
+   width: 425px;
+   padding: 1px 0px 3px 10px;
+   font-size: 15px;
+}
+/* ------------------------------messagebox------------------------ */
+.message-box {
+   /* border: 2px solid yellow; */
+   margin: 0px;
+   padding: 5px;
+}
+.message {
+   /* width: 80px; */
+}
+.message textarea {
+   padding: 13px 0px 0px 20px;
+   font-size: 15px;
+   font-weight: 500;
+   width: 425px;
+}
+
+/* -------------------------------buttonbox------------------------- */
+.button-box {
+   /* border: 2px solid rgb(157, 26, 223); */
+   margin: 10px 0 10px 0;
+   padding: 5px;
+}
+.button button {
+   /* text-transform: uppercase; */
+   /* font-weight: bold; */
+   padding: 10px;
+   font-family: "roboto", sans-serif;
+   font-size: 12px;
+   background: #2e86c1;
+   text-align: center;
+   text-decoration: none;
+   color: #fff;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.button :hover {
+   background-color: #0373bf;
+}
+
+/* -------------------------------wrapper-2---------------------------------- */
+.wrapper-2 {
+   /* border: 2px solid pink; */
+   height: 591px;
+   width: 400px;
+   position: absolute;
+   margin: 60px 693px;
+   padding: 60px 27px;
+   background-color: #2e86c1;
+   color: #f8f9f9;
+   border-radius: 8px;
+   box-shadow: 10px 0 0;
+}
+.heading-2 {
+   /* border: 2px solid black; */
+   margin: 32px 0px -29px 0px;
+   padding: 0px 0px 0px 0px;
+   padding: 5px;
+   font-size: 36px;
+}
+.innercontent {
+   position: absolute;
+   /* border: 2px solid rgba(34, 95, 141, 0.593); */
+   margin: 0px 0px 0px 0px;
+   padding: 0px;
+   height: 380px;
+   width: 300px;
+   font-size: 18px;
+}
+
+/* --------------------------css for all icons------------------ */
+.icon {
+   display: inline-block;
+   /* border: 2px solid black; */
+   height: 30px;
+   width: 30px;
+   margin: 75px 10px 0px 12px;
+   padding: 0px;
+   font-weight: 400px;
+}
+.fas {
+   /* color: red; */
+   font-size: 25px;
+   /* border: 2px solid black; */
+   padding: 5px;
+   /* border-radius: 30px; */
+}
+#icon-1 {
+   /* margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   position:absolute; */
+}
+.address {
+   /* border: 2px solid yellow; */
+   height: 60px;
+   width: 315px;
+   margin: -59px 0px -46px 62px;
+   padding: 0px;
+   height: auto;
+   width: 210px;
+   /* font-weight: bold; */
+   font-size: 15px;
+   line-height: 25px;
+}
+#icon-2 {
+}
+.phone {
+   /* font-weight: bold; */
+   /* border: 2px solid yellow; */
+   margin: -30px 0px -45px 62px;
+   padding: 0px;
+   height: auto;
+   width: 210px;
+   font-size: 15px;
+   line-height: 25px;
+}
+#icon-3 {
+   position: relative;
+   margin: 55px 35px 35px 10px;
+   padding: 0px 0px;
+}
+.fa-envelope {
+   margin: 18px 0px 0px 0px;
+}
+.email-2 {
+   /* font-weight: bold; */
+   /* border: 2px solid yellow; */
+   height: auto;
+   width: 210px;
+   margin: -37px 0px -39px 62px;
+   padding: 0px;
+   font-size: 15px;
+   line-height: 25px;
+}
+#icon-4 {
+}
+.website {
+   /* border: 2px solid yellow; */
+   margin: -30px 0px -23px 62px;
+   padding: 0px;
+   height: auto;
+   width: 210px;
+   /* font-weight: bold; */
+   font-size: 15px;
+   line-height: 25px;
+}

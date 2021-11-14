@@ -1,0 +1,82 @@
+/* ---------css reset-------- */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+
+}
+.header{
+    background-color: #E74C3C;
+}
+h1{
+    margin: 10px;
+    padding: 10px;
+}
+.navbar{
+    background-color: #F1C40F;
+    /* border: 2px solid red; */
+    height:40px;
+    width: auto;
+    /* display: flex;
+    flex-direction: column; */
+
+}
+.ul-elements{
+    /* border: 2px solid #000; */
+    width: 400px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul {
+    list-style-type: none;
+    padding: 5px;
+}
+ul li{
+    padding: 3px;
+}
+ul li a{
+    text-decoration: none;
+    color: #000;
+
+}
+.main-container{
+    background-color: #AAB7B8;
+    /* border: 2px solid black; */
+    width: auto;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.first-div{
+    /* border: 2px solid red; */
+    margin: 20px;
+    height: 40px;
+    text-align: center;
+    padding: 8px;
+    font-size: 20px;
+
+}
+.second-div{
+    /* border: 2px solid rgb(15, 124, 148); */
+    margin: 20px;
+    padding: 10px;
+    
+}
+
+.third-div{
+    /* border: 2px solid rgb(47, 255, 0); */
+    margin: 20px;
+    padding: 10px;
+    
+}
+.footer{
+    background-color: #F7DC6F;
+    color:#000 ;
+    text-align: right;
+    padding: 0 20px 0 0;
+}
